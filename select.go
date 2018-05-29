@@ -17,7 +17,7 @@ func main(){
 				fmt.Printf("c3 is closed\n")
 			}
 		default:
-			fmt.Printf("c3 is closed\n")
+			fmt.Printf("In default\n")
 	}
 }
 			
