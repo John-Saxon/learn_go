@@ -13,5 +13,5 @@ func main() {
 	fmt.Println("type of type:", reflect.TypeOf(reflect.TypeOf(num)))
 	fmt.Println("type of value:", reflect.TypeOf(reflect.ValueOf(num)))
 
-	num = reflect.ValueOf(num)
+	// num = reflect.ValueOf(num)
 }
