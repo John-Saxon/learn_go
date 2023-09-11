@@ -12,7 +12,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	cwd = "/Users/johnsaxon/test/github.com/learn_go/file"
+	cwd = "~/test/github.com/learn_go/file"
 	path := path.Join(cwd, "new_dir", "createFile_p.txt")
 	log.Println(path)
 	f, err := os.Create(path)

@@ -26,9 +26,9 @@ func main() {
 
 	fmt.Println("I am here2")
 	go func() {
-		// in.WriteString("lavaadmin\n")
+		// in.WriteString("test\n")
 		fmt.Println("I am here1")
-		inPipe.Write([]byte("lavaadmin"))
+		inPipe.Write([]byte("test"))
 		fmt.Println("I am here")
 		inPipe.Write([]byte("\n"))
 		fmt.Println("I am here5")
@@ -62,7 +62,7 @@ func main() {
 // 	cmd.Stdout = &out
 // 	err := cmd.Start()
 // 	go func() {
-// 		in.WriteString("lavaadmin")
+// 		in.WriteString("test")
 // 	}()
 // 	if err != nil {
 // 		fmt.Println(err)

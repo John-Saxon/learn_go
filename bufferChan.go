@@ -14,7 +14,7 @@ func main() {
 
 	// goroutine 1 [chan receive]:
 	// main.main()
-	//         /Users/johnsaxon/test/github.com/learn_go/bufferChan.go:15 +0x19c
+	//         ~/test/github.com/learn_go/bufferChan.go:15 +0x19c
 	// exit status 2
 	*/
 
